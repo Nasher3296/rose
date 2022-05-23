@@ -1,0 +1,35 @@
+{
+  "name": "rose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src",
+    "start": "node src",
+    "db": "mysql -u root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasher3296/rose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasher3296/rose/issues"
+  },
+  "homepage": "https://github.com/Nasher3296/rose#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "morgan": "^1.10.0"
+  }
+}
